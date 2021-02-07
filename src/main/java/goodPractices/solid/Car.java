@@ -19,7 +19,7 @@ public class Car  extends Vehicle implements MovingVehicle{
         this.numbersOfDoors = numbersOfDoors;
     }
 
-    @Override
+
     public void carSpecificBehavior() {
         System.out.println("brrr");
     }
@@ -34,10 +34,6 @@ public class Car  extends Vehicle implements MovingVehicle{
         System.out.println("Stabdau kaip masina");
     }
 
-    @Override
-    public void fly() {
-
-    }
 
     // @Override
    // public boolean isInspectionOverdue() {

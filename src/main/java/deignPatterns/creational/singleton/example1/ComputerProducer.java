@@ -1,4 +1,4 @@
-package deignPatterns.creational.singleton;
+package deignPatterns.creational.singleton.example1;
 
 
 /**
@@ -26,13 +26,11 @@ public class ComputerProducer {
     //Global access point
     public static ComputerProducer getComputerProducer(){
         //Jaigu instancas egzistuoja
-        if(computerProducer != null){
-            return computerProducer;
-        } else {
+        if (computerProducer == null) {
             //Jaigu neegzistuoja
             computerProducer = new ComputerProducer();
-            return computerProducer;
         }
+        return computerProducer;
     }
 
 }

@@ -4,9 +4,9 @@ import java.time.LocalDate;
 
 /**
  * L - Liskov's Substitution.
- * <p>
+ *
  * If class A is a subtype of class B.
- * Then we shou;d be able to replace B whith A withaut disrupting the behavior of the program.
+ * Then we should be able to replace B with A withaut disrupting the behavior of the program.
  */
 public class Main {
 

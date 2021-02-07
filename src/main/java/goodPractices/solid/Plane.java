@@ -10,12 +10,8 @@ package goodPractices.solid;
  */
 
 
-public class Plane implements MovingVehicle{
+public class Plane implements MovingVehicle, FlyingVehicle {
 
-    @Override
-    public void carSpecificBehavior() {
-
-    }
 
     @Override
     public void accelerate() {

@@ -5,9 +5,9 @@ package goodPractices.solid.dependencyInversion;
  *
  * D - dependency Inversion principle
  *
- * HIgher level modules should not be dependant on Lower Level Modules.
+ * Higher level modules should not be dependant on Lower Level Modules.
  *
- * Instead both higher and lower level modules should be dependant on absstraction
+ * Instead both higher and lower level modules should be dependant on abstraction
  *
  * Manager - higher level
  * Developer - lower level modules

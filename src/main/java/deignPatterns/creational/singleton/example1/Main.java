@@ -1,4 +1,4 @@
-package deignPatterns.creational.singleton;
+package deignPatterns.creational.singleton.example1;
 
 public class Main {
 
