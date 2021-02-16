@@ -1,4 +1,4 @@
-package deignPatterns.creational.builder;
+package deignPatterns.creational.builder.example1;
 /*
 Apsirasome standartinius veiksmus robotui sukurti
  */

@@ -1,4 +1,4 @@
-package deignPatterns.creational.builder;
+package deignPatterns.creational.builder.example1;
 /**
 Builder (Creational) is used to create objects made from other objects.
  When you need to create objects which consist of other objects
@@ -20,5 +20,7 @@ public class BuilderMain {
 
         engineer = new RobotEngineer(new TeslaRobotBuilder());
         engineer.constructRobot();
+
+
     }
 }

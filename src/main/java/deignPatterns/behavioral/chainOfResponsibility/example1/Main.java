@@ -1,4 +1,4 @@
-package deignPatterns.behavioral.chainOfResponsibility;
+package deignPatterns.behavioral.chainOfResponsibility.example1;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class Main {
                 System.out.println("Amount should be multiple of 10s");
                 break;
             }
-            atmDispencerChain.getFirstChainElement().dispense(new Currency(amount));
+            atmDispencerChain.getFirstChainElement().dispense(new Currency(amount), atmDispencerChain.getFirstChainElement().getNote());
         }
     }
 }

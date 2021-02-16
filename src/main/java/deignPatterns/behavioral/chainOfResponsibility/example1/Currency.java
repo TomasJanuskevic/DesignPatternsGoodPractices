@@ -1,4 +1,4 @@
-package deignPatterns.behavioral.chainOfResponsibility;
+package deignPatterns.behavioral.chainOfResponsibility.example1;
 
 public class Currency {
     private int amount;

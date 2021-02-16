@@ -1,4 +1,4 @@
-package deignPatterns.behavioral.chainOfResponsibility;
+package deignPatterns.behavioral.chainOfResponsibility.example1;
 
 /**
  * BASE interface should have a method to define the next processor and a method to process the request
@@ -9,9 +9,13 @@ package deignPatterns.behavioral.chainOfResponsibility;
  */
 public interface DispenseChain {
 
+    int getNote();
+
     //kitos grandines dalies priskyrimas
     void setNextChain(DispenseChain nextChain);
 
     //pinigu isdavimas
-    void dispense(Currency currency);
+    void dispense(Currency currency, int note);
+
+
 }

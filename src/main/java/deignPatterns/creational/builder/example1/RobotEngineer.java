@@ -1,4 +1,4 @@
-package deignPatterns.creational.builder;
+package deignPatterns.creational.builder.example1;
 
 public class RobotEngineer {
 
